@@ -1,0 +1,158 @@
+@media only screen and (max-width:1000px) {
+    .ham-burger {
+        display: block;
+    }
+
+    .navbar .nav-logo {
+        display: inline-block;
+    }
+
+    .nav-items {
+        margin: auto 0;
+    }
+
+    .nav-items .item-list {
+        position: absolute;
+        z-index: 11;
+        top: 70px;
+        flex-direction: column;
+        background: #202020;
+        overflow: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    .nav-items .item-list li {
+        padding-top: 2px;
+    }
+
+    .nav-items .item-list li a {
+        color: white;
+    }
+
+    .carousel-content h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width:1285px) and (min-width:850px) {
+    .carousel-control-prev {
+        left: 44%;
+    }
+
+    .previous {
+        left: 20%;
+    }
+
+    .previous,
+    .next {
+        z-index: 12;
+        top: 80%;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .news-box .news-img div {
+        margin-left: -145px;
+    }
+
+    .news-box .news-imgg div {
+        margin-right: -145px !important;
+    }
+
+    .tprev {
+        left: 113%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .tprev {
+        left: 110%;
+    }
+
+    .tnext {
+        right: -45%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .news-box .news-img div {
+        margin-left: -120px;
+    }
+
+    .news-box .news-imgg div {
+        margin-right: -118px !important;
+    }
+
+    .titlepage h2 {
+        font-size: 28px;
+    }
+
+    .tprev {
+        left: 108%;
+    }
+
+}
+
+
+@media only screen and (min-width:400px) and (max-width:767px) {
+    .carousel-control-prev {
+        left: 40%;
+    }
+
+    .carousel-control-next {
+        right: 40%;
+    }
+
+    .service_box {
+        padding-top: 20px;
+    }
+
+    .previous,
+    .next {
+        z-index: 12;
+        top: 80%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .news-box .news-img div {
+
+        margin-left: -12px;
+    }
+
+    .news-box .news-imgg div {
+        margin-right: -6px !important;
+    }
+
+    .titlepage h2 {
+        padding-top: 30px;
+    }
+
+    .tprev {
+        left: 26%;
+    }
+
+    .tnext {
+        right: 25%;
+    }
+
+    .tprev,
+    .tnext {
+        top: 111%;
+    }
+    
+    .test-content{
+        padding-top: 20px;
+    }
+    .container-fluid{
+        max-width: 100%;
+        margin:0;
+        padding: 0;
+    }
+        .container{
+            margin: 0;
+            max-width: 450px;
+        }
+}
